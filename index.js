@@ -1,3 +1,5 @@
 /*
-1. Make looking of the calculator that contain all numbers and +, -, *, /
+1. Make basic look of calculator
+2. Add buttons with js
 */
+
