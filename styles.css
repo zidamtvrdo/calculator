@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#calc {
+    height: 800px;
+    width: 500px;
+    margin: 20px auto;
+    background-color: rgb(155, 154, 154);
+    padding: 10px;
+}
+
+#screen { 
+    width: 90%;
+    height: 10%;
+    background-color: rgb(253, 241, 241);
+    margin: 5% auto;
+}
+
+#keyboard {
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(75, 66, 66)
+}
