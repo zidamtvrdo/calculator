@@ -86,8 +86,18 @@ const keyboardOperation = window.addEventListener('keyup', (e) => {
 clear.addEventListener('click', handleClear)
 
 const keyboardClear = window.addEventListener('keyup', (e) => {
-    if (e.key == 'C' || e.key == 'c' || e.key == 'Backspace') {
+    if (e.key == 'C' || e.key == 'c') {
         handleClear();
+    }
+})
+
+const keyboardDelete = window.addEventListener('keyup', (e) => {
+    if (e.key == 'Backspace') {
+        let displayArr = Array.from(display.textContent);
+        if (displayArr.length > 0) {
+            [...displayArr.pop()];
+        }
+        display.textContent = displayArr.join('');
     }
 })
 
